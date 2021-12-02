@@ -1,29 +1,47 @@
+/* general rules */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;;
 }
 
 .container {
-    display: block;
     width: 100vw;
 }
 
-.container #main-menu {
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* header rules */
+header {
     height: 60px;
-    background-color: white;
+    width: 100vw;
+    background-color: pink;
+}
+
+nav {
+    height: 70px; 
+    width: 100vw;
+    text-align: left;
     position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
 }
 
-.container #jumbotron {
-    height: 70vh;
-    width: 100%;
-    background-color: cornflowerblue;
+nav ul li {
+    display: inline-block;
+    margin: 10px 3px;
+    padding: 10px 2px;
+    font-size: 8px;
+    vertical-align: middle;
 }
 
-.container #piano-business {
-    height: 100vh;
-    width: 100%;
-    background-color: white;
+nav ul li a {
+    text-decoration: none;
+    color: black;
 }
+
