@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -15,28 +16,48 @@
     clear: both;
 }
 
+.content-jumbotron { 
+    height: 100%;
+    width: 80%;
+    border-style: solid;
+    margin: auto;
+}
+
+.content {
+    height: 100%;
+    width: 70%;
+    border-style: solid;
+    margin: auto;
+}
+
+.content-team {
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+    margin: auto;
+}
+
 /* header rules */
 header {
     height: 60px;
     width: 100vw;
     background-color: pink;
-}
-
-nav {
-    height: 70px; 
-    width: 100vw;
-    text-align: left;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 999;
 }
 
+nav {
+    height: 70px; 
+    width: 100vw;
+}
+
 nav ul li {
     display: inline-block;
-    margin: 10px 3px;
-    padding: 10px 2px;
-    font-size: 8px;
+    margin: 10px 5px;
+    padding: 10px 5px;
+    font-size: 12px;
     vertical-align: middle;
 }
 
@@ -44,4 +65,131 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
+
+nav ul li a img {
+    height: 20px;
+}
+
+#menu-left {
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+
+#menu-right {
+    width: 50%;
+    text-align: right;
+    float: right;
+    padding: .5% 0;
+}
+
+/* main rules */
+
+#jumbotron {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    height: 500px;
+    background-color: powderblue;
+}
+
+#piano-business {
+    position: absolute;
+    top: 560px;
+    left: 0;
+    background-color: plum;
+    height: 1000px; 
+}
+
+#piano-header {
+    height: 10%;
+    margin: 5% 0;
+    float: top;
+}
+
+#opzione-piano1 {
+    height: 72%;
+    width: 30%;
+    margin: 0 3% 0 0;
+    float: left;
+    background-color: white;;
+}
+
+#opzione-piano2 {
+    height: 72%;
+    width: 30%;
+    margin: 0 2% 0 0;
+    float: left;
+    background-color: white;
+}
+
+#opzione-piano3 {
+    height: 72%;
+    width: 30%;
+    margin: 0 0 0 3%;
+    float: right;
+    background-color: white;
+}
+
+#piano-footer {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    right: 15%;
+    height: 15%;
+    margin: 2% 0;
+}
+
+
+
+#trova-partner {
+    height: 300px;
+    position: absolute;
+    top: 1560px;
+    background-color: lightgreen;
+}
+
+#gallery {
+    height: 600px;
+    position: absolute;
+    top: 1860px;
+    left: 0;
+    background-color: white;
+}
+
+#team-list {
+    height: 300px;
+    position: absolute;
+    top: 2460px;
+    left: 0;
+    background-color: grey;
+}
+
+#prova-gratuita {
+    height: 150px;
+    position: absolute;
+    top: 2760px;
+    left: 0;
+    background-color: burlywood;
+}
+
+#faq {
+    height: 300px;
+    position: absolute;
+    top: 2910px;
+    left: 0;
+    background-color: coral;
+}
+
+/* footer rules */
+
+footer {
+    height: 150px;
+    position: absolute;
+    top: 3210px;
+    left: 0;
+    background-color: black;
+}
+
+
 
