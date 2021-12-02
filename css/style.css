@@ -123,6 +123,8 @@ nav ul li a img {
     z-index: 99;
 }
 
+/* plan types */
+
 #piano-business {
     position: absolute;
     top: 640px;
@@ -139,6 +141,15 @@ nav ul li a img {
     margin: 5% 0;
     padding: 5% 0;
     float: top;
+}
+
+#piano-header h2 {
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+input {
+    font-size: 6px;
 }
 
 #opzione-piano1 {
