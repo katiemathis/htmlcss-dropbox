@@ -19,7 +19,6 @@
 .content-jumbotron { 
     height: 100%;
     width: 80%;
-    border-style: solid;
     margin: auto;
 }
 
@@ -41,7 +40,7 @@
 header {
     height: 60px;
     width: 100vw;
-    background-color: pink;
+    background-color: white;
     position: fixed;
     top: 0;
     right: 0;
@@ -57,7 +56,7 @@ nav ul li {
     display: inline-block;
     margin: 10px 5px;
     padding: 10px 5px;
-    font-size: 12px;
+    font-size: 10px;
     vertical-align: middle;
 }
 
@@ -80,7 +79,15 @@ nav ul li a img {
     width: 50%;
     text-align: right;
     float: right;
-    padding: .5% 0;
+    padding: 0;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
 }
 
 /* main rules */
@@ -90,12 +97,35 @@ nav ul li a img {
     top: 60px;
     left: 0;
     height: 500px;
-    background-color: powderblue;
+    background-color: #b8cde6;
+}
+
+.content-jumbotron h1 {
+    position: relative;
+    margin: 2% 0;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#jumbotron-text {
+    height: 70%;
+    width: 35%;
+    margin: 3% 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.container #jumbotron .content-jumbotron img {
+    height: 80%;
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+    z-index: 99;
 }
 
 #piano-business {
     position: absolute;
-    top: 560px;
+    top: 640px;
     left: 0;
     background-color: plum;
     height: 1000px; 
@@ -149,7 +179,7 @@ nav ul li a img {
 #trova-partner {
     height: 300px;
     position: absolute;
-    top: 1560px;
+    top: 1640px;
     background-color: lightgreen;
 }
 
@@ -157,7 +187,7 @@ nav ul li a img {
 #gallery {
     height: 600px;
     position: absolute;
-    top: 1860px;
+    top: 1940px;
     left: 0;
     background-color: white;
 }
@@ -180,7 +210,7 @@ nav ul li a img {
 #standalone-text {
     height: 150px;
     position: absolute;
-    top: 2460px;
+    top: 2540px;
     left: 0;
     background-color: burlywood;
 }
@@ -190,7 +220,7 @@ nav ul li a img {
 #team-list {
     height: 300px;
     position: absolute;
-    top: 2610px;
+    top: 2690px;
     left: 0;
     background-color: grey;
 }
@@ -198,7 +228,7 @@ nav ul li a img {
 #prova-gratuita {
     height: 150px;
     position: absolute;
-    top: 2910px;
+    top: 2990px;
     left: 0;
     background-color: burlywood;
 }
@@ -206,7 +236,7 @@ nav ul li a img {
 #faq {
     height: 300px;
     position: absolute;
-    top: 3060px;
+    top: 3140px;
     left: 0;
     background-color: coral;
 }
@@ -214,9 +244,9 @@ nav ul li a img {
 /* footer rules */
 
 footer {
-    height: 150px;
+    height: 250px;
     position: absolute;
-    top: 3360px;
+    top: 3440px;
     left: 0;
     background-color: black;
 }
