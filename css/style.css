@@ -99,6 +99,7 @@ nav ul li a img {
 
 #jumbotron {
     margin-top: 60px;
+    margin-bottom: 30px;
     padding: 3% 0;
     min-height: 500px;
     background-color: #b8cde6;
@@ -249,7 +250,19 @@ input {
 
 footer {
     min-height: 250px;
+    padding: 5% 12.5%;   
     background-color: black;
+}
+
+.footer-menu {
+    min-height: 100px;
+    background-color: white;
+    color: white;
+    width: 11vw;
+    float: left;
+    margin: 0 2vw;
+    z-index: 99;
+
 }
 
 
