@@ -37,6 +37,10 @@
     margin: auto;
 }
 
+.ten-px {
+    font-size: 10px;
+}
+
 
 /* header rules */
 header {
@@ -270,6 +274,7 @@ hr {
 }
 
 #trova-partner-text {
+    line-height: 30px;
     margin-left: 5%;
     padding: 5%;
 }
@@ -280,8 +285,14 @@ hr {
     background-color: white;
 }
 
+#gallery {
+    margin: 5% 0;
+}
+
+
 #gallery-header {
     width: 100%;
+    margin: 5% 0;
 }
 
 .info-card {
@@ -291,8 +302,16 @@ hr {
     padding: .5%;
     float: left;
     overflow: none;
-    background-color: purple;
     border-style:ridge;
+}
+
+.info-card img {
+    width: 100%;
+}
+
+.info-card h4 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 #standalone-text {
