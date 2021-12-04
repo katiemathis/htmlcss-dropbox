@@ -299,10 +299,9 @@ hr {
     min-height: 200px;
     width: 31%;
     margin: 1%;
-    padding: .5%;
+    padding: 1%;
     float: left;
     overflow: none;
-    border-style:ridge;
 }
 
 .info-card img {
@@ -314,9 +313,16 @@ hr {
     padding-bottom: 10px;
 }
 
-#standalone-text {
-    min-height: 150px;
-    background-color: burlywood;
+.underline {
+    text-decoration: underline;
+}
+
+
+#standalone-text .content .fifty-percent-width {
+    min-height: 70px;
+    width: 50%;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 /* TEAM LIST */
