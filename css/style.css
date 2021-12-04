@@ -256,11 +256,22 @@ hr {
     font-size: 10px;
 }
 
+/* TROVA PARTNER */
 
 
 #trova-partner {
     min-height: 300px;
-    background-color: lightgreen;
+}
+
+#trova-partner img {
+    height: 50vh;
+    margin-right: 5%;
+    float: left;
+}
+
+#trova-partner-text {
+    margin-left: 5%;
+    padding: 5%;
 }
 
 /* gallery rules */
