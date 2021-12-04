@@ -154,24 +154,14 @@ input {
     font-size: 6px;
 }
 
-.col-left {
+.row .col-left, .col-middle {
     width: 30%;
     margin: 0 5% 0 0;
     float: left;
     background-color: white;
     border-width: thin;
     border-style: solid;
-    font-size: 8px;
-}
 
-.col-middle {
-    width: 30%;
-    margin: 0 5% 0 0;
-    float: left;
-    background-color: white;
-    border-width: thin;
-    border-style: solid;
-    
 }
 
 .col-right {
@@ -183,14 +173,21 @@ input {
     border-style: solid;
 }
 
+
+
 .plan-type-container {
     border: none;
 }
 
 .plan-type {
-    line-height: 20px;
+    line-height: 10px;
     font-size: 10px;
     text-align: center;
+    vertical-align: middle;
+}
+
+i {
+    height: 10%;
 }
 
 hr {
@@ -203,9 +200,36 @@ hr {
     padding: 5%; 
 }
 
+.plan-details-container .ogni-quanto {
+    font-size: 8px;
+    color: grey;
+}
+
+.plan-details-container .plan-includes {
+    margin: 30px 0;
+}
+
+.plan-details-container .button {
+    font-size: 8px;
+    margin: 0 20%;
+}
+
+.plan-details-container .acquista-ora {
+    font-size: 10px;
+    margin: 20px 0;
+}
+
 .plan-details-container ul {
     list-style-type: none;
+    font-size: 10px;
+    line-height: 20px;
 }
+
+.plan-details-container .punti-salienti-list li::before {
+    content: "\2714   ";
+    color: blue;
+}
+
 
 #piano-footer {
     min-height: 50px;
