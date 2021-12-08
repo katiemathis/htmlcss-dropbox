@@ -142,45 +142,78 @@ nav ul li a img {
     min-height: 600px; 
 }
 
-#piano-header {
-    min-height: 200px;
-    margin: 20px 0;
-    padding: 5% 0;
+.piano-header {
+    min-height: 150px;
+    padding: 5% 0 2% 0;
+    margin: 0 0 2% 0;
 }
 
-#piano-header h2 {
-    font-weight: 400;
-    margin: 0 0 20px 0;
+.piano-header h2 {
+    margin: 0 0 5% 0;
 }
 
-input {
-    font-size: 6px;
+.radio {
+    font-size: 8px;
+    margin-right: 10px;
+    float: left;
 }
 
-.row::after {
+.select::before {
+    content:"x";
+    font-size: 1px;
+    color: white;
+    padding: 4px;
+    margin-right: 5px;
+    background-color: white;
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    line-height: 10px;
+}
+
+.no-select::before {
+    content:"x";
+    font-size: 1px;
+    color: white;
+    padding: 4px;
+    margin-right: 5px;
+    background-color: white;
+    border-color: black;
+    border-width: .5px;
+    border-style: solid;
+    border-radius: 50%;
+    line-height: 10px;
+}
+
+.radio::after {
     content: "";
     clear: both;
-    display: table;
+    display: table;  
 }
+
+
 
 .row .col-left, .col-middle {
     width: 30%;
-    margin: 10% 5% 0 0;
+    margin: 0 5% 0 0;
     float: left;
     background-color: white;
     border-width: thin;
     border-style: solid;
+    border-color: lightgrey;
     min-height: 600px;
 
 }
 
 .col-right {
     width: 30%;
-    margin: 10% 0 0 0;
+    margin: 0 0 0 0;
     float: left;
     background-color: white;
     border-width: thin;
     border-style: solid;
+    border-color: lightgrey;
     min-height: 600px;
 }
 
@@ -198,8 +231,9 @@ input {
 
 hr {
     width: 100%;
-    color: black;
-    height: 1px;
+    background-color: lightgrey;
+    height: .5px;
+    border: none;
 }
 
 .plan-details-container {
@@ -241,6 +275,11 @@ hr {
     padding: 20px 0;
 }
 
+.punti-salienti-list ul {
+    list-style-position: outside;
+
+}
+
 .plan-details-container .punti-salienti-list li::before {
     content: "\2714   ";
     color: blue;
@@ -252,12 +291,43 @@ hr {
     margin: 5% 0;
     border-width: thin;
     border-style: solid;
+    border-color: lightgrey;
 }
+
+#enterprise {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+#plan-footer-details {
+    margin-left: 2%;
+    margin-bottom: 4%;
+}
+
+#plan-footer-blurb {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+#contact-header {
+    margin-bottom: 2%;
+}
+
+#contact-blurb {
+    margin-bottom: 2%;
+}
+
 
 #contact-team .button { 
     float: right;
-    margin: 2%;
+    margin: 5%;
     font-size: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /* TROVA PARTNER */
@@ -277,6 +347,15 @@ hr {
     line-height: 30px;
     margin-left: 5%;
     padding: 5%;
+}
+
+#trova-partner-button {
+    background-color: white;
+    border-color: grey;
+    border-style: solid;
+    border-width: thin;
+    color: black;
+    text-decoration: none;
 }
 
 /* gallery rules */
