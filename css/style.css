@@ -462,14 +462,31 @@ footer {
 
 .footer-menu {
     min-height: 100px;
-    background-color: white;
-    color: white;
     width: 11vw;
     float: left;
     margin: 0 2vw;
     z-index: 99;
-
 }
+
+.footer-menu-header {
+    margin: 0 0 5% 0;
+    padding: 0 0 5% 0;
+    font-size: 12px;
+    color: white;
+}
+
+.footer-menu-items {
+    list-style-type: none;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.footer-menu-items li a {
+    text-decoration: none;
+    color: white;
+}
+
+
 
 
 
