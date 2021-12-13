@@ -280,11 +280,12 @@ hr {
 
 }
 
-.plan-details-container .punti-salienti-list li::before {
-    content: "\2714   ";
+
+
+.fa-check {
     color: blue;
-    margin: 2px 0;
 }
+
 
 #piano-footer {
     min-height: 50px;
